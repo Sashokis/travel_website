@@ -15,7 +15,7 @@
 }
 
 .footer {
-  background: #F7F6F6;
+  background: #f7f6f6;
   padding-top: 32px;
   padding-bottom: 40px;
   display: flex;
@@ -80,7 +80,7 @@
   margin-bottom: 16px;
 }
 .form__email {
-  background: #FFFFFF;
+  background: #ffffff;
   border: 1px solid #c4c4c4;
   box-sizing: border-box;
   border-radius: 20px;
@@ -96,32 +96,32 @@
   padding-right: 25px;
 }
 .form__email::-moz-placeholder {
-  color: #C4C4C4;
+  color: #c4c4c4;
 }
 .form__email::placeholder {
-  color: #C4C4C4;
+  color: #c4c4c4;
 }
 .form__button {
-    width: 275px;
-    height: 46px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    align-items: center;
-    text-align: center;
+  width: 275px;
+  height: 46px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  align-items: center;
+  text-align: center;
 
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    box-sizing: border-box;
-    outline: none;
-    transition: all 0.3s;
-    color: #122620;
-    border: 1px solid #122620;
-    background-color: white;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  box-sizing: border-box;
+  outline: none;
+  transition: all 0.3s;
+  color: #122620;
+  border: 1px solid #122620;
+  background-color: white;
 }
 .form__button:hover {
-  color: #F7F6F6;
+  color: #f7f6f6;
   background-color: grey;
 }

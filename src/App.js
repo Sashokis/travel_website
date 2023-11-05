@@ -1,20 +1,20 @@
-import React from 'react';
-import NavMenu from './components/NavMenu';
-import CatalogTour from './components/CatalogTour';
-import FooterBlock from './components/FooterBlock';
-import './App.css';
+import React from "react";
+import NavMenu from "./components/NavMenu";
+import CatalogTour from "./components/CatalogTour";
+import FooterBlock from "./components/FooterBlock";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <NavMenu/>
+        <NavMenu />
       </header>
       <main>
-      <CatalogTour/>
+        <CatalogTour />
       </main>
       <footer>
-       <FooterBlock/>
+        <FooterBlock />
       </footer>
     </div>
   );
