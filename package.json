@@ -15,9 +15,9 @@
     "format": "prettier --write .",
     "lint:jsx": "eslint \"**/*.jsx\"",
     "lint": "npm run lint:jsx",
-    "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
-    "test": "react-app-rewired test",
+    "start": "react-app start",
+    "build": "react-app build",
+    "test": "react-app test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
