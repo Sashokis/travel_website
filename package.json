@@ -14,7 +14,6 @@
   "scripts": {
     "format": "prettier --write .",
     "lint:jsx": "eslint \"**/*.jsx\"",
-    "prepare": "husky install",
     "lint": "npm run lint:jsx",
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
