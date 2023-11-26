@@ -5,7 +5,7 @@ export default function FooterBlock() {
   return (
     <div id="footer_" className="footer__content center">
       <div className="footer__info">
-        <a className="header__logo" href="">
+        <a className="header__logo-none" href="">
           <img className="header__logo-img" src="img/Logo.svg" alt="logo" />
         </a>
 

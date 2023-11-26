@@ -21,7 +21,7 @@ export default function NavMenu() {
         </div>
       </section>
       <div className="top-cart"></div>
-      <header className="header center">
+      <div className="header center">
         <a className="header__logo" href="">
           <img className="header__logo-img" src="img/Logo.svg" alt="logo" />
         </a>
@@ -42,7 +42,7 @@ export default function NavMenu() {
         <a href="#footer_">
           <button className="header__menu-button"> Связь с нами </button>
         </a>
-      </header>
+      </div>
     </div>
   );
 }

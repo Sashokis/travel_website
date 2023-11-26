@@ -5,13 +5,11 @@
   background: #878e8c;
   padding-top: 32px;
   padding-bottom: 40px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 .footer__info {
   display: flex;
-  gap: 190px;
+  gap: 150px;
 }
 
 .footer {
@@ -22,6 +20,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .footer__logo {
   font-style: normal;
   font-weight: 600;
@@ -39,7 +38,7 @@
 .footer__heading {
   font-weight: 500;
   font-size: 24px;
-  line-height: 29px;
+  /* line-height: 29px; */
   color: #000;
   font-style: normal;
 }
@@ -124,4 +123,88 @@
 .form__button:hover {
   color: #f7f6f6;
   background-color: grey;
+}
+
+@media screen and (max-width: 1040px) and (min-width: 769px) {
+  .header__logo-none {
+    display: none;
+  }
+
+  .footer__content {
+    justify-content: center;
+  }
+
+  .footer__info {
+    display: flex;
+    gap: 100px;
+  }
+
+  .footer__item {
+    padding-left: 20px;
+  }
+
+  .form__email {
+    font-size: 12px;
+    width: 250px;
+    height: 40px;
+  }
+
+  .form__button {
+    font-size: 12px;
+    width: 250px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__logo-none {
+    display: none;
+  }
+
+  .footer__content {
+    justify-content: center;
+  }
+
+  .footer__info {
+    display: flex;
+    gap: 50px;
+  }
+
+  .footer__heading {
+    font-size: 12px;
+  }
+
+  .footer__link {
+    font-size: 8px;
+  }
+  .footer__item {
+    padding-left: 10px;
+    gap: 3px;
+  }
+
+  .form__email {
+    font-size: 8px;
+    width: 100px;
+    height: 25px;
+  }
+
+  .form__button {
+    font-size: 8px;
+    width: 100px;
+    height: 25px;
+  }
+
+  .footer__icon_social {
+    width: 10px;
+    height: 10px;
+  }
+
+  .form__text {
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+
+  .footer__form {
+    gap: 8px;
+  }
 }

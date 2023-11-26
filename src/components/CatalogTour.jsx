@@ -18,8 +18,6 @@ export default function CatalogTour() {
           <img className="product__img" src="img/place1.jpg" alt="logo" />
           <h3 className="product__heading"> Париж </h3>
           <p className="product__text">
-            Если тебе повезло и ты в молодости жил в Париже, то, где бы ты ни
-            был потом, он до конца дней твоих останется с тобой, потому что
             Париж — это праздник, который всегда с тобой.
           </p>
         </div>
